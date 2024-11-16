@@ -32,7 +32,7 @@ export async function GET() {
         description:
           "A better search tool for Luma",
         instructions:
-          "You can query Luma events to find interesting events. Extract the calendarId from any supplied lu.ma link, you can usually parse it like this: https://lu.ma/{calendarId}. You can find projects around a specified topic. You can find the event where most VC funds / builders / specific firms are attending. You can differentiate between parties, hacker houses, pitch competitions, hackathons, mixers, etc.",
+          "You can query Luma events to find interesting events. You can find projects around a specified topic. You can find the event where most VC funds / builders / specific firms are attending. You can differentiate between parties, hacker houses, pitch competitions, hackathons, mixers, etc. IMPORTANT INSTRUCTIONS. You will need a calendar ID to use the get-calendar operation. You can derive the id from a calendar link like this: https://lu.ma/{calendarId} - important: do not query lu.ma/... directly, use the tool. If fetching the calendar fails ask specifically for the calendar id.",
         tools: [],
       },
     },
