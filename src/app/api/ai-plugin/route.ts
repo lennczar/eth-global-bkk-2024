@@ -25,7 +25,7 @@ export async function GET() {
 			},
 		],
 		"x-mb": {
-			"account-id": key.accountId || "",
+			"account-id": "kahless_deckard.near",
 			assistant: {
 				name: "Luma Agent",
 				description: "A better search tool for Luma",
