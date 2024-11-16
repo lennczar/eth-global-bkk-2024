@@ -21,7 +21,7 @@ export async function GET() {
 		},
 		servers: [
 			{
-				url: config?.url || DEPLOYMENT_URL,
+				url: "https://eth-global-bkk-2024-sepia.vercel.app",
 			},
 		],
 		"x-mb": {
