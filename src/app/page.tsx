@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex flex-col p-2">
       <h1 className="text-3xl font-bold">
-        Ref Finance Agent
+        Luma Agent
       </h1>
       <ul>
         <li>
@@ -28,7 +28,7 @@ export default function Home() {
         </li>
         <li>
           <a
-            href="https://github.com/Mintbase/ref-finance-agent-next"
+            href="https://github.com/lennczar/eth-global-bkk-2024"
             target="_blank"
             rel="noreferrer"
           >

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "concurrently \"next dev\" \"make-agent dev --port 3000\"",
+    "build": "next build && make-agent deploy",
     "start": "next start",
     "lint": "next lint"
   },
